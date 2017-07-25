@@ -1,10 +1,12 @@
 import itertools
 import sys
-#Function to Ask user for the bound 
+
+############################################################
+#Ask User the corresponding Bound
 def AskUSER(xbound):
     num=float(input(xbound))
     return num
-
+############################################################
 ##xmin=AskUSER('X-Min: ')
 ##xmax=AskUSER('X-Max: ')
 ##
