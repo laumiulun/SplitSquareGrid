@@ -7,25 +7,26 @@ def AskUSER(xbound):
     num=float(input(xbound))
     return num
 ############################################################
-##xmin=AskUSER('X-Min: ')
-##xmax=AskUSER('X-Max: ')
+xmin=AskUSER('X-Min: ')
+xmax=AskUSER('X-Max: ')
+
+ymin=AskUSER('Y-Min: ')
+ymax=AskUSER('Y-Max: ')
+
+zmin=AskUSER('Z-Min: ')
+zmax=AskUSER('Z-Max: ')
+
+##xmin=324547.91
+##xmax=346279.17
 ##
-##ymin=AskUSER('Y-Min: ')
-##ymax=AskUSER('Y-Max: ')
+##ymin=4256315.96
+##ymax=4271658.24
 ##
-##zmin=AskUSER('Z-Min: ')
-##zmax=AskUSER('Z-Max: ')
-
-xmin=322313.11+200
-xmax=346313.16-200
-
-ymin=4250031.45+200
-ymax=4271930.42-200
-
-zmin=-5000+200
-zmax=2769.57-200
+##zmin=-5000
+##zmax=2770.56
 #Ask User for number of node
 numofnode=int(input('Number of Node: '))
+
 
 # Create list of number each limit
 xlist=[]

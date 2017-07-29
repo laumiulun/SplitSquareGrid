@@ -28,11 +28,11 @@ A list of software packages required for this workflow is as below:
 * On Models Toolbars and expand your desire models.
 * Scroll down to **3D grid**, rightclick and select **Settings**
 
-![Console](./contents/paraview_input.png)
+![Console](./contents/boundary1.png)
 
 * Navigate to **Statistics** tab and record the XYZ boundaries on **AXIS** and the average Xinc,Yinc, and Zinc on **Description**
 
-![Console](./contents/paraview_input.png)
+![Console](./contents/Statistics.png)
 
 ### Section 2. Use SplitSqaureGrid Python Script to generate Nodal File
 
@@ -43,6 +43,8 @@ A list of software packages required for this workflow is as below:
 ```
 * Enter the limits of each axis, and the number of cells in each direction.
 * A text document named **example.txt** that contain all nodes is generated in the same directory. 
+
+
 
 ### Section 3. Extract Attibutes Data from PETREL into Nodal File
 
@@ -57,10 +59,9 @@ Make sure the format is **Irap Classic Points(ASCII)**
 * Uncheck **[Neglect Z value when mostly positive]** and select **OK**
 
 __________________________________
-
 * To check if the Nodal File completely encapsulate the Petrel Project file
 	* 	In Model Toolbar, check **[Top]**, **[Horizon]** and **[Bottom]**
-
+	
 _____________________________________
 
 * In Input Toolbar,
