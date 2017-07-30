@@ -28,9 +28,11 @@ A list of software packages required for this workflow is as below:
 * Open Petrel project file **"example.ptd"**
 * On Models Toolbars and expand your desire models.
 * Scroll down to **3D grid**, rightclick and select **Settings**
-![Boundary](./contents/boundary1.png)
+
+	![Boundary](./contents/Boundary1.png)
+	
 * Navigate to **Statistics** tab and record the XYZ boundaries on **AXIS** and the average Xinc,Yinc, and Zinc on **Description**
-![STATS](./contents/Statistics.png)
+	![STATS](./contents/Statistics.png)
 
 ### Section 2. Use SplitSqaureGrid Python Script to generate Nodal File
 
@@ -82,13 +84,13 @@ _____________________________________
 	
 		![assignATT](./contents/assignATT.png)
 	
-	* Select one set of attributes from models toolbar
-	* Select right arrows to import attibutes and choose **Run** to apply
+	* Select one set of attribute from models toolbar
+	* Select __Arrow__ to import attibutes and choose **Run** to apply
 
 		![Right arrow](./contents/rightarrow.png)
 		
 	* Repeat for additional properties.
-* Right click on the Grid file (**example.txt**),
+* To output final data file, right click on the Grid file (**example.txt**),
 	* Select **Export Object**
 	
 		![Export](./contents/exportobject.png)
@@ -99,7 +101,6 @@ _____________________________________
 	* Again, check to make sure both file have the same CRS, and choose __OK__ to export 
 
 		![checkCRS](./contents/outputCRS.png)
-
 
 ## Side Note
 
